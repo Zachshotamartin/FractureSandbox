@@ -1,0 +1,14 @@
+[
+  {
+    "file": "01.png",
+    "caption": "30 closed Voronoi cells · separated to expose interior faces",
+    "alt": "A ceramic panel split around an off-center impact into 30 solid shards with tan cut surfaces visible between them",
+    "steps": ["Use seed 42, fragment count 30, and impact position (0.6, 1.85).", "Keep the Ceramic appearance.", "Set Separate cuts to 0.22 at time zero.", "Capture the rendered inspection arrangement."]
+  },
+  {
+    "file": "02.png",
+    "caption": "The same fragments · 1.18 seconds into the computed impact",
+    "alt": "The same ceramic shards falling and contacting the floor after the panel breaks, with the empty support frame behind them",
+    "steps": ["Keep seed 42, 30 fragments, and impact strength 3.", "Set the timeline to 1.18 seconds, which leaves separated inspection mode.", "Capture the cached physical frame with gravity, rotation, and floor contact."]
+  }
+]
